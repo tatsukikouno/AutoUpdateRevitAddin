@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+    <AddIn Type="Application">
+        <Name>AutoUpdateRevitAddin</Name>
+        <Assembly>AutoUpdateRevitAddin.dll</Assembly>
+        <FullClassName>AutoUpdateRevitAddin.App</FullClassName>
+        <ClientId>5CF47979-FD46-414B-943D-05D806907B7C</ClientId>
+        <VendorId>tatsukikouno</VendorId>
+        <VendorDescription>tatsukikouno, https://github.com/tatsukikouno/AutoUpdateRevitAddin</VendorDescription>
+    </AddIn>
+</RevitAddIns>
