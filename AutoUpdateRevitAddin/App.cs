@@ -95,9 +95,9 @@ namespace AutoUpdateRevitAddin
     {
         private readonly HttpClient _httpClient;
         private readonly string _githubApiUrl;
-        private readonly string _githubToken;
+        private readonly string? _githubToken;
 
-        public UpdateChecker(HttpClient httpClient, string githubApiUrl, string githubToken = null)
+        public UpdateChecker(HttpClient httpClient, string githubApiUrl, string? githubToken = null)
         {
             _httpClient = httpClient;
             _githubApiUrl = githubApiUrl;
